@@ -2,6 +2,7 @@ import React from "react";
 import Squares from "./components/Squares";
 import SignUp from "./components/SignUp";
 import Button from "./components/Button";
+import Form from "./components/Form";
 
 const App = () => (
   <>
@@ -11,6 +12,7 @@ const App = () => (
     <SignUp minimumLength={4} />
     <h3>Passing value up</h3>
     <Button handleUpdate={(value) => console.log(value)} />
+    <Form handleSubmit={(value) => console.log(value)} />
   </>
 );
 

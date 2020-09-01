@@ -30,7 +30,6 @@ class Button extends Component {
     let { counter } = this.state;
     return (
       <>
-        <p>{counter}</p>
         <button className="btn btn-primary" onClick={this.handleClick}>
           Click me
         </button>
