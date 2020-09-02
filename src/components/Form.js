@@ -16,7 +16,7 @@ class Form extends Component {
   handleClick(e) {
     e.preventDefault();
     const { name, email } = this.state;
-    let personData = { Name: { name }, Email: { email } };
+    let personData = { name, email };
     let { handleSubmit } = this.props;
     this.setState({ name: "", email: "" });
     handleSubmit(personData);

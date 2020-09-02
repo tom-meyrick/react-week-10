@@ -20,10 +20,8 @@ class SignUp extends Component {
       inputOne === inputTwo && inputOne.length > minimumLength
         ? "green"
         : "red";
-    // const colour = value1 === value2 && value1.length > minimumLength ? "green" : "red";
     return (
       <>
-        {console.log(inputOne === inputTwo)}
         <Password
           handleChange={(e) =>
             this.setState({ inputOne: e.currentTarget.value })
