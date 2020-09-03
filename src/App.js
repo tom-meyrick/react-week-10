@@ -4,6 +4,8 @@ import SignUp from "./components/SignUp";
 import Button from "./components/Button";
 import Form from "./components/Form";
 import Max from "./components/Max";
+import Clicked from "./components/hooks/Clicked";
+import Square from "./components/hooks/Square";
 
 const App = () => (
   <>
@@ -15,6 +17,9 @@ const App = () => (
     <h3>Passing value up</h3>
     <Button handleUpdate={(value) => console.log(value)} />
     <Form handleSubmit={(value) => console.log(value)} />
+    <h3>Hooks</h3>
+    <Clicked />
+    <Square color={"orange"} />
   </>
 );
 

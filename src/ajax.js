@@ -44,10 +44,6 @@ axios.get("/articles").then(({ data }) =>
   )
 );
 
-axios.get("/articles").then(({ data }) =>
-  console.table(
-    data.data.map((article) => {
-      return article.tag;
-    })
-  )
-);
+// axios
+//   .get("/articles")
+//   .then(({ data }) => console.table(data.data.map((article) => {})));
