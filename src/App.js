@@ -8,6 +8,7 @@ import Clicked from "./components/hooks/Clicked";
 import Square from "./components/hooks/Square";
 import ToggleText from "./components/hooks/ToggleText";
 import Counter from "./components/hooks/Counter";
+import CatchMeIfYouCan from "./components/hooks/CatchMeIfYouCan";
 
 const App = () => (
   <>
@@ -20,6 +21,7 @@ const App = () => (
     <Button handleUpdate={(value) => console.log(value)} />
     <Form handleSubmit={(value) => console.log(value)} />
     <h3>Hooks</h3>
+    <CatchMeIfYouCan jump={100} />
     <Clicked />
     <Square color={"orange"} />
     <ToggleText initial={"Hello"} alternate={"World"} />
