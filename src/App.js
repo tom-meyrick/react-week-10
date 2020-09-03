@@ -9,6 +9,7 @@ import Square from "./components/hooks/Square";
 import ToggleText from "./components/hooks/ToggleText";
 import Counter from "./components/hooks/Counter";
 import CatchMeIfYouCan from "./components/hooks/CatchMeIfYouCan";
+import RollCall from "./components/hooks/RollCall";
 
 const App = () => (
   <>
@@ -26,6 +27,7 @@ const App = () => (
     <Square color={"orange"} />
     <ToggleText initial={"Hello"} alternate={"World"} />
     <Counter initial={5} max={10} />
+    <RollCall names={["Rita", "Adrian", "Susan", "Stephanie"]} />
   </>
 );
 
