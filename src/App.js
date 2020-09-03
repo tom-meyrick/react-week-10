@@ -7,6 +7,7 @@ import Max from "./components/Max";
 import Clicked from "./components/hooks/Clicked";
 import Square from "./components/hooks/Square";
 import ToggleText from "./components/hooks/ToggleText";
+import Counter from "./components/hooks/Counter";
 
 const App = () => (
   <>
@@ -22,6 +23,7 @@ const App = () => (
     <Clicked />
     <Square color={"orange"} />
     <ToggleText initial={"Hello"} alternate={"World"} />
+    <Counter initial={5} max={10} />
   </>
 );
 
