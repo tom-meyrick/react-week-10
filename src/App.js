@@ -6,6 +6,7 @@ import Form from "./components/Form";
 import Max from "./components/Max";
 import Clicked from "./components/hooks/Clicked";
 import Square from "./components/hooks/Square";
+import ToggleText from "./components/hooks/ToggleText";
 
 const App = () => (
   <>
@@ -20,6 +21,7 @@ const App = () => (
     <h3>Hooks</h3>
     <Clicked />
     <Square color={"orange"} />
+    <ToggleText initial={"Hello"} alternate={"World"} />
   </>
 );
 
