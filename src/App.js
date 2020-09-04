@@ -10,6 +10,7 @@ import ToggleText from "./components/hooks/ToggleText";
 import Counter from "./components/hooks/Counter";
 import CatchMeIfYouCan from "./components/hooks/CatchMeIfYouCan";
 import RollCall from "./components/hooks/RollCall";
+import Clicked2 from "./components/hooks/reducer/Clicked2";
 
 const App = () => (
   <>
@@ -28,6 +29,8 @@ const App = () => (
     <ToggleText initial={"Hello"} alternate={"World"} />
     <Counter initial={5} max={10} />
     <RollCall names={["Rita", "Adrian", "Susan", "Stephanie"]} />
+    <h3>Reducer</h3>
+    <Clicked2 />
   </>
 );
 
